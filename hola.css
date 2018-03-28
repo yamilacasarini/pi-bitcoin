@@ -1,3 +1,7 @@
+a {
+  cursor: pointer;
+}
+
 .title-style {
   color: #c3152e;
   font-size: 32px;
@@ -30,5 +34,9 @@
 .nav-link {
   font-family: sans-serif;
   color: #474747;
-  margin: 15px;
+  padding: 15px;
+}
+
+.nav-link:hover {
+  color: #c3152e;
 }

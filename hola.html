@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="hola.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <title></title>
   </head>
   <body background="body-bg.png">
@@ -16,10 +18,26 @@
     </div>
 
     <div class="header-nav">
-      <a class="nav-link">Investigación ▼</a>
-      <a class="nav-link">Integrantes ▼</a>
-      <a class="nav-link">Papers Publicados ▼</a>
-      <a class="nav-link">Links de Interés ▼</a>
+      <a id= "inv-nav" class="nav-link">Investigación</a>
+      <a id= "members-nav" class="nav-link pipe-divisor">Integrantes</a>
+      <a id= "papers-nav" class="nav-link pipe-divisor">Papers Publicados</a>
+      <a id= "links-nav" class="nav-link pipe-divisor">Links de Interés</a>
+    </div>
+
+    <div id="investigation" class="link">
+      Investigación
+    </div>
+
+    <div id="members" class="link">
+      Integrantes
+    </div>
+
+    <div id="papers" class="link">
+      Papers publicados
+    </div>
+
+    <div id="links" class="link">
+      Links de interes
     </div>
 
   </body>
